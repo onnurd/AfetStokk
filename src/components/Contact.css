@@ -1,0 +1,105 @@
+.container-contact{
+    display: flex;
+    height: 100vh;
+    position: relative;
+}
+
+.left-contact{
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-right: 1px solid;
+    border-color: rgb(218, 212, 212);
+    
+}
+
+.right-contact{
+    
+    flex:5;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-contact{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    max-width: 70%;
+    transform: translateX(-50%);
+
+}
+
+.link-container-contact{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 35%;
+    width: 100%;
+}
+
+.link{
+    margin: 10%;
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.container-box{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.contact-box{
+    border: 1px solid rgb(223, 214, 214);
+    width: 25%;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.contact-box h3{
+    border: 1px solid rgb(223, 214, 214);
+    background-color: #F5B9B726;
+    padding: 6px;
+    border-radius: 30px;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contact-box p {
+    font-weight: bold;
+    
+}
+
+.lower-div {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    margin-top: 11%;
+  }
+  
+  .social-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 10px;
+    gap: 20%;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .social-icon {
+    justify-content: space-between;
+    width: 80%;
+    height: 80%;
+    margin-bottom: 5%;
+  }
